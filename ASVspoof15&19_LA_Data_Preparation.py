@@ -7,10 +7,10 @@ from scipy import signal
 import os
 
 """
-This program generates 
+This program generates
     1) equal-duration time domain raw waveforms
-    2) 2D log power of constant Q transform 
-from ASVspoof2019 and ASVspoof2015 official datasets, respectively. 
+    2) 2D log power of constant Q transform
+from ASVspoof2019 and ASVspoof2015 official datasets, respectively.
 This program is supposed to be run independently for data preparation.
 
 Official dataset download link: https://www.asvspoof.org/database
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     # TODO: ASVspoof2019 data preparation
 
     # directory info of ASVspoof2019 dataset
-    root_path = 'F:/ASVspoof2019/LA/'
+    root_path = 'ASVspoof2019/LA/'
     train_protocol_path = root_path + 'ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.train.trn.txt'
     dev_protocol_path   = root_path + 'ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.dev.trl.txt'
     eval_protocol_path  = root_path + 'ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.eval.trl.txt'
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
     # TODO: ASVspoof2015 data preparation
     # directory info of ASVspoof2015 dataset
-    root_path = 'F:/ASVspoof2015/'
+    root_path = 'ASVspoof2015/'
     train_protocol_path = root_path + 'CM_protocol/cm_train.trn.txt'
     dev_protocol_path   = root_path + 'CM_protocol/cm_develop.ndx.txt'
     eval_protocol_path  = root_path + 'CM_protocol/cm_evaluation.ndx.txt'
